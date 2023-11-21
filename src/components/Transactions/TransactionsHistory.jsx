@@ -1,5 +1,5 @@
 import React from 'react'
-import '../index'
+import '../../index'
 
 export const TransactionsHistory = ({items}) => {
   return (

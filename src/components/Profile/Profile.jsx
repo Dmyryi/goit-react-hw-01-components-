@@ -1,5 +1,5 @@
 import React from "react";
-import '../index'
+import '../../index'
 
 export const Profile=({username, tag, location, avatar, stats})=>{
     return (
