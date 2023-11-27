@@ -1,0 +1,33 @@
+.statistics {
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin: 0 auto;
+    text-align: center;
+    width: 460px;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.stat_list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    /* Зробити <ul> рядком */
+    justify-content: space-between;
+    align-items: center;
+}
+
+.label {
+    display: block;
+}
+
+.item {
+    display: flex;
+    /* Зробити кожен <li> стовпцем */
+    align-items: center;
+}

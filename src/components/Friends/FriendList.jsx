@@ -1,11 +1,11 @@
-import React from "react"
-import { FriendListItem } from "./FriendListItem"
-
+import React from 'react';
+import { FriendListItem } from './FriendListItem';
+import styles from './FriendList.module.css';
 
 export const FriendList = ({ friends }) => {
   return (
-    <ul className="friend-list">
-      {friends.map((friend) => (
+    <ul class={styles.friend_list}>
+      {friends.map(friend => (
         <FriendListItem key={friend.id} {...friend} />
       ))}
     </ul>
